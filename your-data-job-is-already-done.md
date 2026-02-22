@@ -1,5 +1,7 @@
 # AI Already Does the Data Work. Here's What You Do Now.
 
+*[Shane Butler](https://www.linkedin.com/in/shaneausleybutler/) | February 22, 2026*
+
 ---
 
 "AI won't replace the data scientist, but a data scientist who uses AI will replace the data scientist who doesn't."
