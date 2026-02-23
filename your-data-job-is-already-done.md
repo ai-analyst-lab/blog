@@ -186,4 +186,4 @@ And start.
 
 ---
 
-*The system I built is open source. More on that soon.*
+*The system I built is [open source](https://github.com/ai-analyst-lab/ai-analyst).*
