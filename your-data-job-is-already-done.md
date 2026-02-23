@@ -14,7 +14,7 @@ Maybe that was true before. It's not true anymore.
 
 The models got good enough to do the whole job. Not just help with pieces of it. The whole thing, from question to finished deck, end to end. And it happened fast. Things that weren't possible three months ago are possible today. What changed isn't that AI got "a little better." It crossed a line. The thing you do all day can be done by AI. Right now.
 
-Here's the honest version: AI is going to replace the data analyst. It's going to replace the analytics engineer. It's going to replace the data scientist. Not "augment." Not "change the way you work." Replace.
+AI is going to replace the data analyst. It's going to replace the analytics engineer. It's going to replace the data scientist. Not "augment." Not "change the way you work." Replace.
 
 Your job right now. Writing queries, building dashboards, answering the same segmentation question for the third time this quarter. That job is done.
 
@@ -40,7 +40,7 @@ There's an order to how this hits the data profession. The roles closest to codi
 
 Think about what covers 80-90% of the questions your data team fields: funnel analysis, segmentation, drivers and root-cause analysis, trend analysis, cohort analysis, opportunity sizing. If your daily work is on that list, the AI already does it.
 
-Here's what it looks like. A straightforward segmentation or funnel analysis that takes an analyst three days? The AI produces it in ten minutes. Prompt to finished deck. A complex deep-dive that takes three to four weeks? Forty minutes to an hour and a half.
+A straightforward segmentation or funnel analysis that takes an analyst three days? The AI produces it in ten minutes. Prompt to finished deck. A complex deep-dive that takes three to four weeks? Forty minutes to an hour and a half.
 
 Most of the work data teams do is pattern execution. Not because the people are bad. The patterns are just predictable. And predictable is exactly where AI is strongest.
 
@@ -50,7 +50,7 @@ The output competes with the strongest analysts I've worked with. The ones every
 
 As the AI analyst runs analyses, it hits walls. It needs better data, cleaner tables, business context it can trust. So what does it do? It starts building the clean, documented semantic tables that analytics engineers spend months on. It stores its learnings and builds rules from its mistakes. This isn't a prediction. It's already started happening. I watched it happen. The AI analyst started building exactly the kind of semantic tables our analytics engineering team had been working on for months.
 
-The critical business context trapped in people's heads? The AI extracts it through conversation and makes it available to everyone.
+The critical business context trapped in people's heads? The AI extracts it through conversation and puts it where anyone can use it.
 
 **Data science is the last domino.** Causal inference and experimental design require more sophisticated reasoning. It's months behind, not years. If you're a data scientist, the five paths below apply to you too. Especially Validator and Translator. Your training in experimental design makes you perfect for those.
 
@@ -62,7 +62,7 @@ You want a timeline? Watch the pace of frontier model releases. It's not a date 
 
 I built an AI data analyst in about a week by talking to it. Tens of thousands of lines of code, all generated through conversation. Not by writing code. By describing standards, correcting mistakes, teaching it what good analysis looks like. Then we tested it on real internal company data. Eleven years of bad data foundations at my company. The kind of data where people give up and just work around the problems.
 
-Here's where it gets scary. I ran it against our North Star metrics. Numbers I report to leadership. Numbers I've been working with for months. A query with 10+ CTEs, some with 15+ table joins. Everything tied out except one number. I asked the AI why. It found the bug: two table abbreviations were accidentally swapped in a join, pulling data from the wrong tables. The system doesn't re-run your SQL. It writes its own query from scratch to verify every number independently.
+I ran it against our North Star metrics. That's where it got scary. Numbers I report to leadership. Numbers I've been working with for months. A query with 10+ CTEs, some with 15+ table joins. Everything tied out except one number. I asked the AI why. It found the bug: two table abbreviations were accidentally swapped in a join, pulling data from the wrong tables. The system doesn't re-run your SQL. It writes its own query from scratch to verify every number independently.
 
 The AI was right. I had been reporting the wrong number to the business for three months.
 
@@ -94,9 +94,9 @@ The skill isn't coding. Coding is solved. A data professional who couldn't ship 
 
 Once the AI is doing the analysis, the problem shifts from producing work to trusting it. Someone has to answer: "Can we act on this?"
 
-That trust doesn't come from gut feeling. You build it by testing the AI against questions with known answers to establish ground truth. You annotate your team's historical query library as a benchmark. You set up feedback loops where the people consuming the analysis flag what feels wrong. Each layer makes the next one stronger.
+That trust doesn't come from gut feeling. You build it by testing the AI against questions with known answers to establish ground truth. You annotate your team's historical query library as a benchmark. You set up feedback loops where the people consuming the analysis flag what feels wrong.
 
-Here's why this matters more than you think. Nobody panics about human drivers killing 40,000 people a year. One AI accident makes national news. The AI analyst will face that same scrutiny, and it doesn't need to be perfect. It needs to be better than you. It already has one permanent advantage: it documents everything, every time, automatically. So your job as validator isn't to catch every mistake. It's to build the systems that make trust scalable.
+Nobody panics about human drivers killing 40,000 people a year. One AI accident makes national news. The AI analyst will face that same scrutiny, and it doesn't need to be perfect. It needs to be better than you. It already has one permanent advantage: it documents everything, every time, automatically. So your job as validator isn't to catch every mistake. It's to build the systems that make trust scalable.
 
 *Monday morning: Take the last 10 analyses your team produced. Feed the same questions to the AI. Compare. Track every divergence. That divergence log is the beginning of your validation framework.*
 
@@ -118,11 +118,13 @@ Messy data and undocumented business logic. The AI can work around some of it, b
 
 Analysts work around messy data. They build workarounds into their queries, store the knowledge in their heads, and move on. All that stuff in your head? It needs to get out and into a system. That's the shift. Stop working around bad data. Start fixing it.
 
-This is the highest-impact work you can do right now. Every improvement to the data foundation makes every automated analysis better, automatically, forever. Fix a metric definition once and every analysis that touches it gets it right from now on. It's the analytics engineering job, evolved. Not maintaining tables. Building the data layer that makes trust work. The AI analyst is already doing this as a side effect of getting smarter. Your job is to guide that process and make it production-grade.
+Nothing you do will matter more than this. Every improvement to the data foundation makes every automated analysis better, automatically, forever. Fix a metric definition once and every analysis that touches it gets it right from now on. It's the analytics engineering job, evolved. Not maintaining tables. Building the data layer that makes trust work. The AI analyst is already doing this as a side effect of getting smarter. Your job is to guide that process and make it production-grade.
 
 *Monday morning: Write down the three things about your data that everyone on your team knows but nobody has documented. A metric that means different things in different contexts. A table with a known edge case. A date column that doesn't mean what its name implies. Getting that out of your head and into a system is the work.*
 
-### Go Solve the Damn Problems
+### Become the Solver
+
+Do the damn work. Get shit done.
 
 You automated your own domain. You know your data, your metrics, your edge cases cold. Good. That was the Builder path. But here is what happens next. You start noticing things that have nothing to do with your team.
 
@@ -138,7 +140,7 @@ That is the Solver. Not deeper expertise in one domain. Broader vision across al
 
 Right now, today, very few data professionals understand what's happening. Most are still debating whether AI will "augment" their work. Their companies are running AI strategy workshops and pilots.
 
-Meanwhile, a small number of people are already generating months of analytical output every week. In a single week, I produced more validated analyses than my team typically delivers in a quarter. Not every analysis was a deep-dive. Many were the routine segmentations and trend analyses that eat most of a team's time. But that's the point. The routine work is what fills your calendar, and the routine work is exactly what AI handles first.
+Meanwhile, a small number of people are already generating months of analytical output every week. In two days, I produced more validated analyses than I'd normally deliver in a month. Not every analysis was a deep-dive. Many were the routine segmentations and trend analyses that eat most of your time. But that's the point. The routine work is what fills your calendar, and the routine work is exactly what AI handles first.
 
 The people who move now build the deepest expertise, take the most interesting roles, and shape how their organizations adopt this. The people who wait get handed a playbook someone else wrote.
 
@@ -178,7 +180,9 @@ If you're feeling that right now, you're not weak. You're paying attention.
 
 You need a clear head to build what comes next. You can't reinvent yourself while you're falling apart. The decisions you're going to make in the next six months will define your career for the next decade. Make them clear-headed.
 
-Get outside. Move your body. See your friends every week. When you start doing this, you're going to get unlocked. You won't be able to stop. It'll be scary and exhilarating at once.
+When you start doing this, you're going to get unlocked. You won't be able to stop. It'll be scary and exhilarating at once.
+
+Get outside. Move your body. See your friends every week.
 
 Take care of yourself while you do it.
 
